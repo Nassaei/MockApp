@@ -1,0 +1,19 @@
+[INFO ] 2024-04-26 18:18:31.143 [main] MockAppApplication - Starting MockAppApplication using Java 17.0.10 with PID 14860 (C:\MyProjects\MockApp\target\classes started by Nassaei in C:\MyProjects\MockApp)
+[INFO ] 2024-04-26 18:18:31.153 [main] MockAppApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-04-26 18:18:31.789 [main] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2024-04-26 18:18:31.859 [main] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+[INFO ] 2024-04-26 18:18:32.352 [main] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2024-04-26 18:18:32.461 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1256 ms
+[INFO ] 2024-04-26 18:18:32.594 [main] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-04-26 18:18:32.890 [main] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@787d1f9c
+[INFO ] 2024-04-26 18:18:32.891 [main] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-04-26 18:18:33.307 [main] SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 2024-04-26 18:18:34.089 [main] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-04-26 18:18:34.314 [main] QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN ] 2024-04-26 18:18:34.690 [main] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2024-04-26 18:18:35.033 [main] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2024-04-26 18:18:35.041 [main] MockAppApplication - Started MockAppApplication in 4.3 seconds (process running for 5.028)
+[INFO ] 2024-04-26 18:18:35.045 [main] JobLauncherApplicationRunner - Running default command line with: []
+[INFO ] 2024-04-26 18:18:35.054 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2024-04-26 18:18:35.056 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-04-26 18:18:35.062 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
